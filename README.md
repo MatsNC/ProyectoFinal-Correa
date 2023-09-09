@@ -14,13 +14,13 @@ Para recuperar el json se usa un fetch y si no se pueden recuperar se usa un cat
 
 ## Características y herramientas utilizadas
 
--Bootstrap.
--Clases.
--Sweet Alert 2.
--DOM
--Bloque try-catch para manejo de error. Función asincrónica y fetch para recuperar datos de json.
--Archivo JSON para simular datos en servidor
--localStorage
+- HTML y CSS.
+- Bootstrap.
+- Sweet Alert 2.
+- DOM
+- Bloque try-catch para manejo de error. Función asincrónica y fetch para recuperar datos de json.
+- Archivo JSON para simular datos en servidor
+- localStorage
 
 ## Feedback
 
