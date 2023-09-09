@@ -15,6 +15,7 @@ Para recuperar el json se usa un fetch y si no se pueden recuperar se usa un cat
 ## Características y herramientas utilizadas
 
 - HTML y CSS.
+- Javascript.
 - Bootstrap.
 - Sweet Alert 2.
 - DOM
