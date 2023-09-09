@@ -1,0 +1,468 @@
+@charset "UTF-8";
+/* Normalización de la página - se eliminan los márgenes y padding */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* html y body  */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.ver-carrito {
+  margin-right: 2px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+body {
+  background: url("../images/bckg_3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 150px;
+}
+
+/* Animaciones */
+@keyframes efecto_titulo {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Estilos propios de navbar */
+.navbar {
+  font-family: "Poppins";
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-brand:hover {
+  color: blue !important;
+}
+
+.bg-mati {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-background {
+  background-color: transparent !important;
+}
+
+.container .text-center {
+  margin-top: 5%;
+}
+
+.fw-bold {
+  color: white;
+}
+
+.navbar-toggler {
+  color: white;
+  background-color: white;
+}
+
+/* Estilo propio de forms */
+label {
+  color: white;
+}
+
+.form-container {
+  margin-top: 5vh !important;
+}
+
+.btn-primary {
+  margin-top: 3vh !important;
+}
+
+/* Estilo propio del footer */
+.footer-div-css {
+  background: #a8c0ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Estilo propio de los links para carousel de la pestaña index */
+.carousel {
+  margin-top: 5vh;
+}
+
+/* Estilo propio de imágenes de pestaña index (las del carrusel) */
+.rounded {
+  margin-top: 5vh !important;
+  margin-bottom: 5vh !important;
+  width: 70% !important;
+}
+
+/* Estilo propio de título de pestaña cursos */
+.h1-cursos {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: dodgerblue;
+  font-style: italic;
+  font-weight: bolder;
+  height: 3rem;
+  justify-content: center;
+  margin-top: 1rem;
+  animation-name: efecto_titulo;
+  animation-timing-function: ease-in;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+/* Estilo propio del texto descriptivo de los cursos */
+.font-curso {
+  font-family: sans-serif;
+}
+
+/* Estilo propio de los links para más información de los cursos */
+.link-curso {
+  color: white;
+  font-weight: bold;
+  background-color: black !important;
+}
+
+/* Estilo propio de fila inferior donde está el link de más información de los cursos */
+.row .bottom {
+  padding-left: 10%;
+}
+
+/* Para centrar las imagenes en la pestaña cursos */
+.col-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo propio de container de filas y columnas de la pestaña cursos */
+.grid {
+  margin-top: 5vh !important;
+}
+
+.col-sm-12 {
+  color: white;
+}
+
+.font-curso p {
+  font-weight: bold;
+}
+
+.btn-reserva {
+  margin-bottom: 20px;
+}
+
+.img-curso {
+  transition: all 400ms ease-out;
+  cursor: default;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.img-curso:hover {
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+  transform: translateY(-3%);
+}
+
+/* Estilos particulares para div de título principal de pestaña nosotros */
+.div-main-title {
+  display: flex;
+  flex-direction: column;
+  background: #373b44;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373b44, #4286f4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373b44, #4286f4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Estilos particulares del título principal */
+.nosotros-title,
+.nosotros-p,
+.nosotros-sub {
+  font-family: sans-serif;
+  color: antiquewhite;
+  font-style: italic;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+
+.nos-p-div {
+  margin-top: 3vh;
+}
+
+.nosotros-sub {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nosotros-p {
+  font-weight: normal;
+  font-size: 2.5vh;
+}
+
+.imagen_nosotros {
+  margin-top: 3vh !important;
+}
+
+.staff {
+  margin-top: 10vh !important;
+}
+
+.caption-staff,
+.staff-title {
+  font-family: sans-serif;
+  color: antiquewhite;
+  font-style: italic;
+  margin-top: 1vh;
+  font-weight: normal;
+}
+
+.div-staff-title {
+  margin-top: 3vh;
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.figure-img {
+  border: 3px solid white;
+}
+
+/* Estilo propio de forms de pestaña asociarse */
+.form-container {
+  margin-top: 5vh !important;
+}
+
+.btn-primary {
+  margin-top: 3vh !important;
+}
+
+.div-modal>img {
+  height: 120px;
+  width: 120px;
+  margin-right: 2vh;
+}
+
+.div-modal>p {
+  font-size: 3vh;
+  margin-right: 3vh;
+  margin-left: 2vh;
+  margin-top: 3vh;
+}
+
+.div-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  margin: 10px;
+}
+
+.button-borrar {
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-left: 2vh;
+}
+
+.restar {
+  padding: 0.3vh;
+}
+
+.control-cantidad {
+  font-size: 3.5vh;
+  cursor: pointer;
+  border: 2px solid gainsboro;
+  border-radius: 5vh;
+  background-color: gainsboro;
+}
+
+.total-precio {
+  font-size: 2.5vh !important;
+}
+
+.form-select {
+  margin-top: 3vh;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*CarritoCounter*/
+.cantidad-carrito {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 17px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+
+.swal2-title-1 {
+  color: rgb(25, 42, 58);
+}
+
+.btn_limpiar {
+  border: none;
+}
+
+.form-label {
+  color: black;
+  margin-top: 1.5vh;
+}
+
+/* Cambio de tamaño de las imágenes del carrusel de acuerdo a screen size (comportamiento responsive) */
+@media only screen and (max-width: 576px) {
+  .curso1 {
+    width: 75% !important;
+  }
+
+  .curso2 {
+    width: 70% !important;
+  }
+
+  .curso3 {
+    width: 70% !important;
+  }
+
+  .imagen_nosotros {
+    display: none;
+  }
+
+  .nosotros-p {
+    font-size: 2vh;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .desc-item-modal {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .imagen_nosotros {
+    display: none;
+  }
+
+  .nosotros-p {
+    font-size: 2.2vh;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .desc-item-modal {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  .curso1 {
+    width: 61% !important;
+  }
+
+  .curso2 {
+    width: 57% !important;
+  }
+
+  .curso3 {
+    width: 57% !important;
+  }
+
+  .img-nos-div {
+    width: 50% !important;
+  }
+
+  .nosotros-p {
+    font-size: 2vh;
+    margin-left: 40%;
+  }
+
+  .desc-item-modal {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .curso1 {
+    width: 37% !important;
+  }
+
+  .curso2 {
+    width: 34% !important;
+  }
+
+  .curso3 {
+    width: 34% !important;
+  }
+
+  .img-nos-div {
+    width: 40% !important;
+  }
+
+  .nosotros-p {
+    font-size: 2.4vh;
+    margin-left: 40% !important;
+  }
+}

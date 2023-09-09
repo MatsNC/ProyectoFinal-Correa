@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre": "Clases de Biblioteca",
+        "precio": 199,
+        "descripcion": "ACTUALIZACIONES EN TEMAS ESPECIALES. Consultas personalizadas.",
+        "duracion": "1 MES",
+        "textoad": "100% online. Escribinos para mas info.",
+        "imagen": "images/curso_1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "CURSO ANESTESIOLOGÍA TIVA",
+        "precio": 300,
+        "descripcion": "CURSO ANESTESIOLOGÍA TIVA. FORMATO: 100% ONLINE.",
+        "duracion": "3 MESES",
+        "textoad": "Escribinos para mas info.",
+        "imagen": "images/curso_2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Taller Práctico de anestesiología",
+        "precio": 100,
+        "descripcion": "Taller Práctico de anestesiología con animales vivos.",
+        "duracion": "1 MES",
+        "textoad": "Lugar del encuentro: CABA. Escribinos para mas info.",
+        "imagen": "images/curso_3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Anestesia en el paciente felino",
+        "precio": 850,
+        "descripcion": "Jornada a beneficio de Gabriel Ávila. Anestesia y Analgesia en el paciente Felino.",
+        "duracion": "1 MES",
+        "textoad": "100% online. Escribinos para mas info.",
+        "imagen": "images/curso_5.jpg",
+        "cantidad": 1
+    }
+]
