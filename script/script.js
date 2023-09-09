@@ -335,7 +335,7 @@ const showCarritoNotEmpty = () => {
             Swal.fire({
                 title: 'Información',
                 text: 'Usted tiene productos en su carrito',
-                imageUrl: '/images/carrito_img.jpg',
+                imageUrl: './images/carrito_img.jpg',
                 imageWidth: 150,
                 imageHeight: 150,
                 imageAlt: 'Carrito de compras',
